@@ -12,6 +12,7 @@ const page = () => {
     <div className='text-white grid md:grid-cols-2 gap-x-6 gap-y-1'>
       {projects.map((project) => (
         <ProjectCard
+          key={project.title}
           title={project.title}
           description={project.description}
           imgUrl={project.imgUrl}

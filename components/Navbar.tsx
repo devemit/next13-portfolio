@@ -9,7 +9,7 @@ export default function Navbar() {
         <SiMonzo className='text-[#E5E5E5]' size={32} />
         <ul className='flex gap-4 py-2 md:flex-col md:mt-4'>
           {pages.map((page) => (
-            <li className='text-[#737373] text-xl hover:text-[#E5E5E5]'>
+            <li key={page.label} className='text-[#737373] text-xl hover:text-[#E5E5E5]'>
               <Link className='focus:text-[#E5E5E5]' href={page.href}>
                 {page.label}
               </Link>

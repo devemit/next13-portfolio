@@ -14,7 +14,7 @@ const page = () => {
     <section>
       <h1 className='text-white text-4xl'>About Me.</h1>
       <p className='text-[#E5E5E5] my-4 '>
-        Hey, I'm Mitko currently working as a freelancer front-end developer.
+        Hey, I am Mitko currently working as a freelancer front-end developer.
       </p>
       <p className='text-[#E5E5E5] my-4'>
         I have almost two years of hands-on experience efficiently coding websites and
