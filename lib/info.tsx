@@ -29,12 +29,9 @@ export const paragraphtwo = () => {
   return (
     <>
       Creating elegant designs suited for your needs following design theory. Implementing
-      web design and development. Collaborating closely with the client through all phases
-      of delivery. Building websites and apps that are responsive and usable. Monitoring
-      website performance and rectifying front-end-related issues.
+      web design and development. Collaborating closely with the client/team through all
+      phases of delivery. Building websites and apps that are responsive and usable.
+      Monitoring website performance and rectifying front-end-related issues.
     </>
   );
-};
-export const skills = () => {
-  return <></>;
 };

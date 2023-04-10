@@ -2,7 +2,6 @@ import { Metadata } from 'next';
 import ButtonLink from '@/components/ButtonLink';
 import { paragraphone } from '@/lib/info';
 import { paragraphtwo } from '@/lib/info';
-import { skills } from '@/lib/info';
 
 export const metadata: Metadata = {
   title: 'About | Mitko',

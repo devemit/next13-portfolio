@@ -1,6 +1,7 @@
 import { ProjectProps } from '@/types/ProjectProps';
 import ButtonLink from './ButtonLink';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const ProjectCard: React.FC<ProjectProps> = ({
   title,
@@ -13,7 +14,7 @@ const ProjectCard: React.FC<ProjectProps> = ({
   return (
     <div className='py-6'>
       <h2 className='my-2 text-xl'>{title}</h2>
-      <img src={imgUrl} alt='project-image' />
+      <Image src={imgUrl} alt='project-image' width={350} height={200} />
       <p className='my-2'>{description}</p>
       <div className='my-2'>
         Technology used:
