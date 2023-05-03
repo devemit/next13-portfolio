@@ -4,7 +4,7 @@ export default [
     imgUrl:
       'https://user-images.githubusercontent.com/107273888/229608163-2a1aeed4-a133-4549-98cd-35f5abe72a35.png',
     tech: ['Typescript', 'React', 'CSS'],
-    liveSite: 'https://reformbeachbar.netlify.app/',
+    liveSite: 'https://reformdojran.vercel.app/',
     seeCode: 'https://github.com/devemit/reform',
     description:
       'Reform Beach&Bar is a webpage which i built for a client from my town, it is a full responsive page which includes a gallery of the beach and the full menu of the bar.',
